@@ -4,7 +4,7 @@
 
 ## ⬇️ تحميل التطبيق (أندرويد)
 
-**[اضغط هنا لتحميل Nazel.apk](https://github.com/zayedbaderfgfgdjhkhftd/nazel-download/releases/latest/download/Nazel.apk)**
+**[صفحة التحميل](https://zayedbaderfgfgdjhkhftd.github.io/nazel-download/)** · **[تحميل مباشر Nazel.apk](https://github.com/zayedbaderfgfgdjhkhftd/nazel-download/releases/latest/download/Nazel.apk)**
 
 ## طريقة التثبيت
 1. حمّل الملف من الرابط أعلاه.

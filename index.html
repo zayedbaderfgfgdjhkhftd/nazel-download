@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>نزّل · Nazel — حمّل الفيديوهات بدون علامة مائية</title>
+<meta name="description" content="تطبيق نزّل لأندرويد: حمّل فيديوهات يوتيوب وتيك توك وسناب شات بدون علامة مائية.">
+<meta property="og:title" content="نزّل · Nazel">
+<meta property="og:description" content="حمّل فيديوهات يوتيوب وتيك توك وسناب شات بدون علامة مائية.">
+<meta property="og:image" content="icon.png">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #f7f6fb; --card: #ffffff; --text: #17151f; --muted: #5d5a6b; --line: #e6e3f0;
+    --brand1: #6c3bff; --brand2: #b13bff; --brand3: #ff3d7f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f0e17; --card: #1a1826; --text: #f3f1fa; --muted: #a9a5bb; --line: #2a2738; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Tahoma, "Noto Sans Arabic", sans-serif;
+    line-height: 1.7;
+  }
+  .hero {
+    background: linear-gradient(135deg, var(--brand1), var(--brand2) 50%, var(--brand3));
+    color: #fff; text-align: center; padding: 48px 16px 72px;
+    border-radius: 0 0 32px 32px;
+  }
+  .hero img { width: 104px; height: 104px; border-radius: 26px; box-shadow: 0 12px 30px rgba(0,0,0,.25); }
+  .hero h1 { margin: 18px 0 6px; font-size: 34px; font-weight: 900; }
+  .hero p { margin: 0 auto; max-width: 520px; opacity: .9; font-size: 17px; }
+  .wrap { max-width: 640px; margin: -44px auto 40px; padding: 0 16px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 20px; padding: 22px; margin-bottom: 16px; }
+  .btn {
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+    background: linear-gradient(135deg, var(--brand1), var(--brand3)); color: #fff; text-decoration: none;
+    font-size: 19px; font-weight: 800; padding: 16px; border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(108,59,255,.35);
+  }
+  .btn svg { width: 24px; height: 24px; }
+  .meta { text-align: center; color: var(--muted); font-size: 14px; margin-top: 10px; }
+  h2 { font-size: 19px; margin: 0 0 12px; }
+  ol { margin: 0; padding-inline-start: 22px; }
+  ol li { margin-bottom: 6px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; }
+  .feat { border: 1px solid var(--line); border-radius: 14px; padding: 12px; font-size: 15px; }
+  .feat b { display: block; }
+  .ok { color: #1d9a5b; } .no { color: #c0392b; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  td { padding: 8px 4px; border-bottom: 1px solid var(--line); }
+  .small { color: var(--muted); font-size: 13.5px; }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 0 16px 32px; }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <img src="icon.png" alt="أيقونة نزّل">
+    <h1>نزّل</h1>
+    <p>حمّل فيديوهاتك المفضلة بدون علامة مائية، في ثوانٍ</p>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <a class="btn" id="dl" href="https://github.com/zayedbaderfgfgdjhkhftd/nazel-download/releases/latest/download/Nazel.apk">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"/></svg>
+        تحميل التطبيق لأندرويد
+      </a>
+      <div class="meta" id="ver">مجاني · أندرويد 7 وأحدث</div>
+    </section>
+
+    <section class="card">
+      <h2>طريقة التثبيت</h2>
+      <ol>
+        <li>اضغط زر التحميل أعلاه وانتظر حتى يكتمل.</li>
+        <li>افتح ملف <b>Nazel.apk</b> من الإشعارات أو مجلد التنزيلات.</li>
+        <li>إذا ظهر «مصادر غير معروفة» اضغط <b>الإعدادات</b> ثم فعّل <b>السماح من هذا المصدر</b>.</li>
+        <li>إذا ظهر تحذير Play Protect اضغط <b>التثبيت على أي حال</b> — التحذير لأن التطبيق ليس من المتجر.</li>
+      </ol>
+      <p class="small">التحديثات تصلك تلقائياً داخل التطبيق.</p>
+    </section>
+
+    <section class="card">
+      <h2>المنصات</h2>
+      <table>
+        <tr><td>تيك توك</td><td class="ok">✓ بدون علامة مائية</td></tr>
+        <tr><td>يوتيوب وشورتس</td><td class="ok">✓ فيديو أو صوت فقط</td></tr>
+        <tr><td>سناب شات (Spotlight)</td><td class="ok">✓</td></tr>
+        <tr><td>انستقرام وفيسبوك</td><td class="no">غير متاح حالياً</td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2>المميزات</h2>
+      <div class="grid">
+        <div class="feat"><b>📋 لصق ذكي</b>يكتشف الرابط المنسوخ تلقائياً</div>
+        <div class="feat"><b>🔗 عدة روابط</b>الصق مجموعة روابط وحمّلها مرة واحدة</div>
+        <div class="feat"><b>▶️ مشغّل مدمج</b>عاين الفيديو قبل الحفظ</div>
+        <div class="feat"><b>🔒 مجلد خاص</b>أخفِ فيديوهاتك برمز سري</div>
+        <div class="feat"><b>⚡ زر سريع</b>«حمّل المنسوخ» من لوحة الإشعارات</div>
+        <div class="feat"><b>🌙 عربي وإنجليزي</b>وضع فاتح وداكن</div>
+      </div>
+    </section>
+
+    <section class="card small">
+      نزّل أداة لحفظ المحتوى للاستخدام الشخصي. احترم حقوق أصحاب المحتوى ولا تُعِد نشر مقاطع الآخرين دون إذنهم.
+      التطبيق غير تابع لأي من المنصات المذكورة.
+    </section>
+  </main>
+
+  <footer>© نزّل · Nazel</footer>
+
+  <script>
+    // Show the current version from version.json (best effort).
+    fetch('version.json', { cache: 'no-store' })
+      .then(r => r.ok ? r.json() : null)
+      .then(j => { if (j && j.version) document.getElementById('ver').textContent = 'الإصدار ' + j.version + ' · مجاني · أندرويد 7 وأحدث'; })
+      .catch(() => {});
+  </script>
+</body>
+</html>
