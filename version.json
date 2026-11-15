@@ -1,7 +1,11 @@
 {
-  "version": "1.3.0",
-  "build": 4,
+  "version": "1.4.0",
+  "build": 5,
   "url": "https://github.com/zayedbaderfgfgdjhkhftd/nazel-download/releases/latest/download/Nazel.apk",
-  "notes": "يوتيوب بجودة حتى 4K، وتحسينات",
-  "force": false
+  "notes": "إصلاح يوتيوب HD، تحديد متعدد، بحث، وميزات جديدة",
+  "force": false,
+  "firebase": {
+    "projectId": "zayedapp-8af03",
+    "apiKey": "AIzaSyDf2j44XVwcKI-ct7359BKXvLynUVfAi98"
+  }
 }
